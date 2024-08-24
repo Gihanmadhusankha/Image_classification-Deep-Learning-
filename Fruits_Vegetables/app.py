@@ -3,6 +3,10 @@ from tensorflow.keras.models import load_model
 import streamlit as st
 import numpy as np
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+model_path=os.getenv("model_path1")
 
 # Define the categories for classification
 data_cat = [
@@ -19,7 +23,7 @@ img_height = 180
 img_width = 180
 
 # Define the path to your model
-model_path = 'D:\Deep learning\Image_classification-Deep-Learning-\Fruits_Vegetables\Image_classify.keras'  # Update with the actual path
+#model_path = 'D:\Deep learning\Image_classification-Deep-Learning-\Fruits_Vegetables\Image_classify.keras'  # Update with the actual path
 
 # Initialize model variable
 model = None
