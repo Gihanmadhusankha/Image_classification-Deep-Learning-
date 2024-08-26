@@ -18,7 +18,7 @@ data_cat = [
     'sweetpotato', 'tomato', 'turnip', 'watermelon'
 ]
 
-# Define image dimensions
+# #Define image dimensions
 img_height = 180
 img_width = 180
 
